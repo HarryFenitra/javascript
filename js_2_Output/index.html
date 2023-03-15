@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Output in javascript</h1>
+    <p>frist paragraph</p>
+
+    <script>
+        window.alert(5+60);
+    </script>
+
+    <script>
+        document.write(5+6);
+     </script>
+    <p>
+           using document.write() after an Html documents is fully
+           loaded , will delete all existing HTML
+    </p>
+        <button onclick="document.write(5+6)"> click it</button>
+
+
+    <p id="calcul"></p>
+    
+    <script>
+        document.getElementById("calcul").innerHTML= 5+3;
+    </script>
+
+    <p>Using consol.log</p>
+
+    <script>
+        console.log(' hello world by javascript');
+    </script>
+
+    <p>IN html, Jvascript Statements are "commands" to the browser.</p>
+
+    <p id="helloDoly"></p>
+
+    <script>
+        document.getElementById("helloDoly").innerHTML ="Hello HELLO"
+    </script>
+</body>
+</html>

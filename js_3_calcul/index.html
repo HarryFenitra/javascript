@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>reponse de a + b = <span id="reponse"></span> </p>
+
+    <p>Calling a function "myFunction"</p>
+    <p>result =  <span id="func"></span></p>
+   
+    <script>
+        var a = 5;
+        var b = 4;
+        var z = a+b;
+        document.getElementById("reponse").innerHTML= z ;
+
+        //Number
+        var lenght = 16;
+        //String
+        var lastName = "Johnson";
+       //Array
+        var cars = ["Sabata", "alatsinainy", "Talata"];
+        //Object
+        var x = { fristName:"RAKOTO", lastName : "Doe"};
+
+        var func = myFunction (5,7);
+
+        function myFunction(x,y){
+            return x*y;
+        }
+
+        document.getElementById("func").innerHTML = func;
+    </script>
+</body>
+</html>
