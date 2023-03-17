@@ -20,3 +20,29 @@ function each_fruit(){
         element[i].innerHTML = fruits[i];
     }
 }
+
+fruits.push("mango");
+
+each_fruit();
+
+document.getElementById("nbr_fruits").innerHTML = fruits.length;
+
+
+// using function sort
+
+var points = [40,100,20,50,1];
+
+function sort_number(){
+    let x = document.getElementsByClassName("sort_result");
+
+    for (var i = 0; i< x.length ; i++){
+        x[i].innerHTML = points.sort();
+    }
+
+    // for (var i = 0; i< x.length ; i++){
+    //     x[i].innerHTML = points.sort(
+    //         function(a,b){return a-b;}
+    //         );
+    // }
+}
+sort_number();
