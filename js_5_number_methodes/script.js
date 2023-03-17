@@ -1,6 +1,22 @@
-var repeat_number = document.getElementsByClassName("nbr_repeat");
 var x = 123;
 
-      for ( var i = 0; i < repeat_number.length ; i++){
-          repeat_number[i].innerHTML = x;
-         }
+function double(){
+     var txtClone = document.getElementsByClassName("nbr_repeat");
+
+      for (var i = 0 ; i < txtClone.length ; i++){
+
+        txtClone[i].innerHTML = x.toString(); 
+      }
+     
+}
+
+//repeating elements using an array
+var fruits =  ["banana", "coco", "watermelon"];
+
+function each_fruit(){
+    const element = document.getElementsByClassName("fruits");
+
+    for (var i = 0; i < element.length ; i++){
+        element[i].innerHTML = fruits[i];
+    }
+}
