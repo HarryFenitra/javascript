@@ -1,0 +1,32 @@
+JavaScript data types
+there are 3 types of objects
+object 
+date
+array
+
+converting strings to numbers
+
+Number("3.14"); return 3.14 (number)
+parseFloat()
+parseInt();
+
+using RegExp ( Regular Expression) is  much more powerful ( case insensitive for example)
+
+---------BEST PRACTICE OF USING JAVASCRIPT-----------
+
+AVOID GLOBAL VARIABLE AS MUCH AS POSSIBLE
+AVOID NEW()
+AVOID EVAL ()
+
+NB: always declare local variables
+
+***DON'T USE NEW OBJECT ()****
+
+USE {} INSTEAD OF NEW OBJECT ()
+USE "" INSTEAD OF NEW STRING ()
+USE 0 INTEAD OF NEW Number()
+USE FALSE INSTEAD OF NEW BOOLEAN ()
+USE [] INSTEAD OF NEW ARRAY []
+USE /()/ INSTEAD OF NEW REGEXP()
+USE FUNCTION (){} INSTEAD OF NEW FUNCTION()
+USE === FOR 
